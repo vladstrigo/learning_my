@@ -1,6 +1,8 @@
 <?php
 
-$x = 3;
-$y = 5;
-var_dump($x<$y);
-var_dump($x>$y);
+$a = rand(0,10);
+if($a % 2 === 0){
+    echo 'число четное';
+} else {
+    echo 'число нечетное';
+}
