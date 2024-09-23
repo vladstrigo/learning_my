@@ -11,3 +11,5 @@ for ($i = 0; $i = $b ; $i++);
 echo $i;
 $c = 6;
 echo $c;
+$f = 10;
+echo $f;
