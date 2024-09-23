@@ -9,4 +9,5 @@ if($a % 2 === 0){
 $b = 5;
 for ($i = 0; $i = $b ; $i++);
 echo $i;
-echo $a;
+$c = 6;
+echo $c;
