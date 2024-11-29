@@ -1,0 +1,11 @@
+let userName = 'vLAd';
+let userSurname = 'sTrIgo';
+let userName1 = userName.substring(0,1);
+let userSurname1 = userSurname.substring(0,1);
+let userName2 = userName.substring(1,4);
+let userSurname2 = userSurname.substring(1,6);
+let resultName = userName1.toUpperCase() + userName2.toLowerCase();
+let resultSurname = userSurname1.toUpperCase() + userSurname2.toLowerCase();
+console.log(resultName , resultSurname);
+console.log(resultName != userName ? 'Имя было преобразовано' : 'Имя осталось без изменений ');
+console.log(resultSurname != userSurname ? 'Имя было преобразовано' : 'Имя осталось без изменений');
